@@ -1,0 +1,12 @@
+@ 86400 IN SOA ns1.example.com. hostmaster.example.com. (
+  2022042201 ; serial number
+  3600       ; refresh time
+  1800       ; retry time
+  604800     ; expire time
+  86400      ; minimum TTL
+)
+@ 86400 IN NS ns1.example.com.
+@ 86400 IN NS ns2.example.com.
+ns1 86400 IN A 192.0.2.1
+ns2 86400 IN A 192.0.2.2
+www 86400 IN A 192.0.2.3
